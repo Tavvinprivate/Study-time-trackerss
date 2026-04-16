@@ -3,10 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Study Time Tracker</title>
+    <title>Study Time Tracker Documentation</title>
+    <style>
+      body { font-family: system-ui, sans-serif; margin: 0; padding: 2rem; background: #f4f7fb; color: #111; }
+      main { max-width: 860px; margin: auto; }
+      .card { background: #fff; border: 1px solid #d9e2ef; border-radius: 20px; padding: 2rem; box-shadow: 0 24px 60px rgba(15, 23, 42, 0.08); }
+      h1 { margin: 0 0 0.5rem; font-size: clamp(2.1rem, 3vw, 3rem); line-height: 1.05; }
+      p.subtitle { color: #5b6376; margin: 0 0 1.8rem; }
+      ul { list-style: none; padding: 0; margin: 0; }
+      li { margin: 0.85rem 0; }
+      a { color: #2563eb; text-decoration: none; font-weight: 600; }
+      a:hover { text-decoration: underline; }
+      .note { margin-top: 1.8rem; color: #5b6376; }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <main>
+      <div class="card">
+        <h1>Study Time Tracker Files</h1>
+        <p class="subtitle">Public shared files for your project. Click any item to open or download it.</p>
+        <ul>
+          <li><a href="/Documentation/Appendix.pdf" target="_blank">Appendix</a></li>
+          <li><a href="/Documentation/Crit_B_Record_of_tasks.pdf" target="_blank">Record of Tasks</a></li>
+          <li><a href="/Documentation/Criterion_A.pdf" target="_blank">Criterion A</a></li>
+          <li><a href="/Documentation/Criterion_B_Design.pdf" target="_blank">Criterion B Design</a></li>
+          <li><a href="/Documentation/Criterion_C.pdf" target="_blank">Criterion C</a></li>
+          <li><a href="/Documentation/Criterion_D.mp4" target="_blank">Criterion D Video</a></li>
+          <li><a href="/Documentation/Criterion_E.pdf" target="_blank">Criterion E</a></li>
+          <li><a href="/Documentation/Study-Time-Tracker-SourceCode-Formatted.pdf" target="_blank">Source Code Listing</a></li>
+        </ul>
+        <p class="note">If this page appears, the site is working and the files are public.</p>
+      </div>
+    </main>
   </body>
 </html>
