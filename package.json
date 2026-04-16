@@ -1,0 +1,8 @@
+{
+  "name": "computer-science-internal-assessment-documentation",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mkdir -p dist && cp index.html dist/ && cp -r public/* dist/ 2>/dev/null || true",
+    "dev": "npx serve ."
+  }
+}
