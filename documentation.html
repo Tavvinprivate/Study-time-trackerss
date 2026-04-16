@@ -2,104 +2,113 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>IB CS IA Cover Sheet - mkx049</title>
+    <title>Computer Science Solution Cover Page - mkx049</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; padding: 40px; max-width: 950px; margin: auto; color: #333; }
-        h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
-        .metadata { margin-bottom: 30px; background: #f8f9fa; padding: 20px; border-radius: 8px; border: 1px solid #dee2e6; }
-        .label { font-weight: bold; width: 180px; display: inline-block; color: #2c3e50; }
-        .instructions { background: #fff3cd; border-left: 5px solid #ffc107; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 40px; max-width: 900px; margin: auto; color: #333; }
+        h1 { text-align: center; font-size: 24px; margin-bottom: 40px; }
+        .header-section { margin-bottom: 30px; }
+        .info-row { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-bottom: 25px; }
+        .info-item { }
+        .label { font-weight: bold; display: inline-block; width: 200px; }
+        .instructions { background: #f9f9f9; border: 1px solid #ddd; padding: 20px; margin: 30px 0; border-radius: 4px; }
+        .instructions strong { display: block; margin-bottom: 10px; }
+        .instructions ol { margin-left: 20px; }
+        .instructions li { margin-bottom: 8px; }
+        code { background: #f0f0f0; padding: 2px 6px; border-radius: 3px; font-family: monospace; }
         
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        th, td { text-align: left; padding: 12px; border-bottom: 1px solid #ddd; }
-        th { background-color: #f2f2f2; color: #2c3e50; }
+        h2 { border-top: 2px solid #333; padding-top: 20px; margin-top: 40px; font-size: 16px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { text-align: left; padding: 10px; border-bottom: 1px solid #ddd; }
+        th { background-color: #f0f0f0; font-weight: bold; }
         
-        .badge { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 0.85em; font-weight: bold; text-transform: uppercase; margin-right: 5px; }
-        .badge-a { background: #e1bee7; color: #4a148c; } 
-        .badge-b { background: #c8e6c9; color: #1b5e20; } 
-        .badge-c { background: #bbdefb; color: #0d47a1; } 
-        .badge-d { background: #fff9c4; color: #f57f17; } 
-        .badge-e { background: #ffccbc; color: #bf360c; } 
+        .badge { display: inline-block; padding: 3px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold; text-align: center; width: 40px; }
+        .badge-a { background: #d9d9ff; color: #0000cc; } 
+        .badge-b { background: #d9f0d9; color: #006600; } 
+        .badge-c { background: #e6f2ff; color: #0066cc; } 
+        .badge-d { background: #fffacd; color: #cc8800; } 
+        .badge-e { background: #ffd9b3; color: #cc3300; } 
         
-        a { color: #3498db; text-decoration: none; font-weight: bold; }
-        a:hover { text-decoration: underline; }
-        code { background: #eee; padding: 2px 4px; border-radius: 4px; font-family: monospace; }
+        a { color: #0066cc; text-decoration: underline; }
+        a:hover { color: #003366; }
     </style>
 </head>
 <body>
 
-    <h1>Internal Assessment: Computer Science</h1>
+    <h1>Computer Science Solution Cover Page</h1>
 
-    <div class="metadata">
-        <p><span class="label">Candidate Code:</span> <strong>mkx049</strong></p>
-        <p><span class="label">Solution Title:</span> Study Time Tracker</p>
-        <p><span class="label">Word Count:</span> <strong>1515</strong></p>
+    <div class="header-section">
+        <div class="info-row">
+            <div class="info-item">
+                <p><span class="label">Solution Title:</span> Study Time Tracker</p>
+            </div>
+            <div class="info-item">
+                <p><span class="label">Candidate Session Number:</span> mkx049</p>
+            </div>
+        </div>
     </div>
 
     <div class="instructions">
-        <strong>Product Execution Instructions:</strong><br>
-        To run the Study Time Tracker locally:
+        <strong>Directions to Access Product or Additional Information:</strong>
         <ol>
-            <li>Navigate to the <code>Product</code> folder in your terminal.</li>
-            <li>Run the command: <code>npm run dev</code></li>
-            <li>Once the local server starts, click the <strong>localhost</strong> link provided in the terminal.</li>
+            <li>Download the code on VSCode</li>
+            <li>Input <code>npm run dev</code> in the terminal</li>
         </ol>
     </div>
 
-    <h2>Project Components & Documentation</h2>
+    <p><span class="label">Word Count:</span> <strong>1515</strong></p>
+
+    <h2>Links to Documentation</h2>
+    
     <table>
         <thead>
             <tr>
                 <th>Component</th>
-                <th>Relevant Criteria</th>
+                <th>Criteria</th>
                 <th>Link</th>
             </tr>
         </thead>
+        <tbody>
             <tr>
                 <td><strong>Planning</strong></td>
                 <td><span class="badge badge-a">A</span></td>
-                <td><a href="Documentation/Criterion A.pdf">View Criterion A</a></td>
+                <td><a href="/Documentation/Criterion_A.pdf" target="_blank">Criterion A</a></td>
             </tr>
             <tr>
                 <td><strong>Solution Overview (Design)</strong></td>
                 <td><span class="badge badge-b">B</span></td>
-                <td><a href="Documentation/Crtierion B design.pdf">View Criterion B Design</a></td>
+                <td><a href="/Documentation/Criterion_B_Design.pdf" target="_blank">Criterion B Design</a></td>
             </tr>
             <tr>
                 <td><strong>Record of Tasks</strong></td>
                 <td><span class="badge badge-b">B</span></td>
-                <td><a href="Documentation/Crit_B_Record_of_tasks.pdf">View Record of Tasks</a></td>
+                <td><a href="/Documentation/Crit_B_Record_of_tasks.pdf" target="_blank">Record of Tasks</a></td>
             </tr>
             <tr>
                 <td><strong>Development</strong></td>
                 <td><span class="badge badge-c">C</span></td>
-                <td><a href="Documentation/Criterion C.pdf">View Criterion C</a></td>
+                <td><a href="/Documentation/Criterion_C.pdf" target="_blank">Criterion C</a></td>
             </tr>
             <tr>
                 <td><strong>Source Code Listing</strong></td>
                 <td><span class="badge badge-c">C</span></td>
-                <td><a href="Documentation/Study-Time-Tracker-SourceCode-Formatted.pdf">View Full Source Code</a></td>
+                <td><a href="/Documentation/Study-Time-Tracker-SourceCode-Formatted.pdf" target="_blank">Source Code</a></td>
             </tr>
             <tr>
                 <td><strong>Criterion D Recording</strong></td>
                 <td><span class="badge badge-d">D</span></td>
-                <td><a href="Documentation/Criterion D.mp4">Watch Criterion D Video</a></td>
+                <td><a href="/Documentation/Criterion_D.mp4" target="_blank">Video Recording</a></td>
             </tr>
             <tr>
                 <td><strong>Evaluation</strong></td>
                 <td><span class="badge badge-e">E</span></td>
-                <td><a href="Documentation/Criterion E.pdf">View Criterion E</a></td>
+                <td><a href="/Documentation/Criterion_E.pdf" target="_blank">Criterion E</a></td>
             </tr>
             <tr>
                 <td><strong>Appendix</strong></td>
                 <td>-</td>
-                <td><a href="Documentation/Appendix .pdf">View Appendix</a></td>
+                <td><a href="/Documentation/Appendix.pdf" target="_blank">Appendix</a></td>
             </tr>
-            <tr>
-                <td><strong>The Executable Product</strong></td>
-                <td><strong>Product</strong></td>
-                <td><a href="Product/">Open Product Folder</a></td>
-            </tr>
+        </tbody>
     </table>
 
 </body>
